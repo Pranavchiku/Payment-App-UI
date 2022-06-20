@@ -21,14 +21,15 @@ class _textFormFieldCardState extends State<textFormFieldCard> {
     return Container(
       height: 90,
       decoration: BoxDecoration(
-          color: Color.fromARGB(255, 255, 255, 255),
-          borderRadius: BorderRadius.circular(20.0),
-          boxShadow: [
-            BoxShadow(
-              blurRadius: 20,
-              color: Color.fromRGBO(0, 0, 0, 0.1),
-            )
-          ]),
+        color: Color.fromARGB(255, 255, 255, 255),
+        borderRadius: BorderRadius.circular(20.0),
+        boxShadow: [
+          BoxShadow(
+            blurRadius: 20,
+            color: Color.fromRGBO(0, 0, 0, 0.1),
+          )
+        ],
+      ),
       child: Container(
         padding: EdgeInsets.only(
           left: 20,

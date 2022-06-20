@@ -12,7 +12,7 @@ class _bottomNavBarState extends State<bottomNavBar> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 55.0,
+      height: 60.0,
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.only(
@@ -31,9 +31,17 @@ class _bottomNavBarState extends State<bottomNavBar> {
             icon: Icon(FeatherIcons.creditCard, color: Colors.black),
             onPressed: () {},
           ),
-          IconButton(
-            icon: Icon(Icons.add, color: Colors.black),
-            onPressed: () {},
+          Container(
+            height: 40,
+            width: 40,
+            decoration: BoxDecoration(
+              color: Colors.indigo,
+              borderRadius: BorderRadius.circular(10),
+            ),
+            child: IconButton(
+              icon: Icon(Icons.add, color: Colors.white),
+              onPressed: () {},
+            ),
           ),
           IconButton(
             icon: Icon(FeatherIcons.dollarSign, color: Colors.black),
