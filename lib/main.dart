@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:payment_app/userProfile.dart';
 import 'package:payment_app/widget/button.dart';
 import 'package:payment_app/widget/textFieldCard.dart';
 
@@ -64,7 +65,10 @@ class _LandingPageState extends State<LandingPage> {
               SizedBox(height: 30),
               button(
                 hintText: "Login",
-                onPressedFunction: () => {},
+                onPressedFunction: () => {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => UserProfile())),
+                },
               ),
               SizedBox(height: 50),
               Row(
