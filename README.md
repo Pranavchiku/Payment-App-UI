@@ -9,8 +9,6 @@
 - [Dart: ](https://dart.dev/) Dart documentation
 ## Screenshots:
 <p float="left">
-<img src = "https://github.com/Pranavchiku/Music_App_UI/blob/main/App%20Images/App%20.png" width="400" height="392">
-<img src = "https://github.com/Pranavchiku/Music_App_UI/blob/main/App%20Images/Main%20Page.jpg" width="176" height="392">
-<img src = "https://github.com/Pranavchiku/Music_App_UI/blob/main/App%20Images/Music%20Playing%20Page.jpg" width="176" height="392">
+<img src = "https://github.com/Pranavchiku/Payment-App-UI/blob/main/App%20Images/Online%20Payment%20APP%20UI.jpg" width="522" height="392">
 </p>
 <p float="left">
